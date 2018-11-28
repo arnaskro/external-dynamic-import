@@ -1,0 +1,33 @@
+{
+  "name": "external-dynamic-import",
+  "version": "1.0.0",
+  "description": "Allows to load in css and js files dynamically into the page.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaskro/external-dynamic-import.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }, 
+  "bugs": {
+    "url": "https://github.com/arnaskro/external-dynamic-import/issues"
+  },
+  "homepage": "https://github.com/arnaskro/external-dynamic-import#readme",
+  "keywords": [
+    "external-dynamic-import",
+    "dynamic",
+    "import",
+    "umd",
+    "loader",
+    "module",
+    "loadcss",
+    "loadjs"
+  ],
+  "author": "Arnas Kromelis",
+  "license": "ISC",
+  "dependencies": {
+    "fg-loadcss": "^2.0.1",
+    "scriptjs": "^2.5.9"
+  }
+}
