@@ -24,7 +24,7 @@
     "loadcss",
     "loadjs"
   ],
-  "author": "Arnas Kromelis",
+  "author": "Arnas Kromelis <arnas@kromelis.lt> (https://kromelis.lt)",
   "license": "ISC",
   "dependencies": {
     "fg-loadcss": "^2.0.1",
