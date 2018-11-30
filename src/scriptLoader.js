@@ -1,6 +1,6 @@
 /**
- * It would be better to use the loaders.js module!
- * Because it has the all loaders in one place.
+ * It would be better to use the global module,
+ * because it has the all loaders in one place.
  */
 import scriptjs from 'scriptjs';
 

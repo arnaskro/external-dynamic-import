@@ -1,6 +1,6 @@
 {
   "name": "external-dynamic-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows to load in css and js files dynamically into the page.",
   "main": "index.js",
   "repository": {
