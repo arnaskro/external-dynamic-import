@@ -1,15 +1,15 @@
-import stylesheetLoader from './src/stylesheetLoader';
-import scriptLoader from './src/scriptLoader';
-
-const loadCSS = stylesheetLoader;
-const loadJS = scriptLoader;
+import loadCSS from './src/stylesheetLoader';
+import loadJS from './src/scriptLoader';
+import loadArtifact from './src/artifactLoader';
 
 export {
   loadCSS,
-  loadJS
+  loadJS,
+  loadArtifact
 };
 
 export default {
   loadCSS,
-  loadJS
+  loadJS,
+  loadArtifact
 };
