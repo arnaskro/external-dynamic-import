@@ -24,9 +24,14 @@ function onloadCSS( ss, callback ) {
 }
 
 // Loads the stylesheet dynamically and returns a promise
-export default (stylesheet) => 
-  new Promise((resolve, reject) => {
+export default (stylesheet) => {
+
+	if (!stylesheet.match(/^(http:)|(https:)|(\/\/)/g))
+		stylesheet = window.location.origin + stylesheet;
+	
+  return new Promise((resolve, reject) => {
     (stylesheet == null) ? 
 		reject("No stylesheet provided") :
 		onloadCSS(loadCSS(stylesheet), resolve)
 	})
+}

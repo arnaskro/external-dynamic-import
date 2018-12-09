@@ -9,4 +9,4 @@ export default (name, artifact) => {
   // If the artifact has a component, return it; 
   // otherwise return the whole artifact
   return artifact.component || artifact;
-}
+} 
